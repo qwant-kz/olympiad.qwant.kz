@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	<title>FAQ</title>
+
+	<style type="text/css">
+		.faq {
+			margin: auto;
+			font-family: 'Playfair Display', serif;
+		}
+
+		.questions {
+			margin: auto;
+		}
+
+		.h3-header {
+			text-align: center;
+		}
+
+		.collapsed:hover {
+			color: #e9b528;
+		}
+
+		/*.accordion-button:focus {
+			outline: 0;
+		}*/
+
+		/*.accordion-button{
+			box-shadow: 0 10px 6px -6px #777;
+		}*/
+		.accordion-button:hover,
+		.accordion-button:focus
+		 {
+		  outline: none;
+		  box-shadow: 0 10px 6px -6px #777;
+		  -webkit-appearance: none;
+		  border-bottom: none;
+		  border-top: 1px solid #ECF0F1;
+		}
+		
+		.accordion-button:not(.collapsed) {
+			color: #e9b528;
+			background-color: #F7F9F9;
+		}
+
+		.accordion-button:not(.collapsed)::after {
+			color: #e9b528;
+
+		}
+
+		.accordion-button::after {
+			color: #e9b528;
+		}
+
+		.accordion-collapse {
+			background-color: #EBF5FB;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="row faq">
+		<div class="col-9 questions">
+			<h3 class="h3-header mb-5"><b>ВОПРОСЫ</b></h3>
+			<div class="accordion accordion-flush" id="accordionFlushExample">
+			  <div class="accordion-item">
+			    <h2 class="accordion-header" id="flush-headingOne">
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+			        <b> Какие возрастные ограничения существуют?</b>
+			      </button>
+			    </h2>
+			    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+			      <div class="accordion-body"><i><b>Школа QWANT открыта для участников с 18 лет</b></i></div>
+			    </div>
+			  </div>
+			  <div class="accordion-item">
+			    <h2 class="accordion-header" id="flush-headingTwo">
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+			        <b>Где проходят занятия?</b>
+			      </button>
+			    </h2>
+			    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+			      <div class="accordion-body"><i><b>Обучение будет проходить онлайн. По мере изменения ситуации наш кампус откроет двери в городе Нур-Султане на базе BCPD: Университет будущего, находящегося на территории Expo 2017, в сердце финансовых и цифровых технологий.</b></i></div>
+			    </div>
+			  </div>
+			  <div class="accordion-item">
+			    <h2 class="accordion-header" id="flush-headingThree">
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+			        <b>Какую практическую ценность я получу от школы?</b>
+			      </button>
+			    </h2>
+			    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+			      <div class="accordion-body"><i><b>Вы получите качественный Upskill навыков программирования до уровня Силиконовой Долины в максимально короткие сроки, а также практический опыт работы а проектах, необходимый при трудоустройстве.</b></i></div>
+			    </div>
+			  </div>
+			  <div class="accordion-item">
+			    <h2 class="accordion-header" id="flush-headingFour">
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+			        <b>Обеспечиваете ли вы проживание участникам?</b>
+			      </button>
+			    </h2>
+			    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+			      <div class="accordion-body"><i><b>На данном этапе запуска школы, нет.</b></i></div>
+			    </div>
+			  </div>
+			  <div class="accordion-item">
+			    <h2 class="accordion-header" id="flush-headingFive">
+			      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+			        <b>Какую помощь оказывает QWANT в трудоустройстве выпускников?</b>
+			      </button>
+			    </h2>
+			    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+			      <div class="accordion-body"><i><b>Бюро МФЦА нацелено на создание, поддержку и продвижение профессионалов и окажет поддержку в трудоустройстве выпускников школы в ведущие компании.</b></i></div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</body>
+</html>
